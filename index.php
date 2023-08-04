@@ -1,3 +1,11 @@
+<?php
+    include_once "Queries.php";
+
+    $queries = new Queries();
+
+    $users = $queries->getUsers();
+    print_r($users);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
